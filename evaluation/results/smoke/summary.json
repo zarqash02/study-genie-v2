@@ -1,0 +1,207 @@
+{
+  "config": {
+    "tag": "smoke",
+    "date": "2026-11-26T06:41:39.621347+00:00",
+    "ragas_version": "0.4.4",
+    "judge_model": "openai/gpt-oss-120b",
+    "generator_model_id": "qwen/qwen3.8-27b",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "overlap": 50,
+    "top_k": 4,
+    "namespace": "eval-smoke",
+    "n_total": 5,
+    "n_scored": 5,
+    "n_score_attempted": 5,
+    "n_eligible_for_scoring": 5,
+    "n_excluded_from_scoring": 0,
+    "n_errors": 0,
+    "n_unanswerable": 0,
+    "reviewed": true,
+    "docs": [
+      {
+        "doc": "AI_Fluency_vocabulary_cheat_sheet.pdf",
+        "page_count": 2,
+        "chunk_count": 3
+      },
+      {
+        "doc": "Lec 4, week 2,Activation Functions.pdf",
+        "page_count": 6,
+        "chunk_count": 6
+      },
+      {
+        "doc": "Lecture.pdf",
+        "page_count": 22,
+        "chunk_count": 22
+      },
+      {
+        "doc": "Lectures.pdf",
+        "page_count": 22,
+        "chunk_count": 22
+      }
+    ]
+  },
+  "aggregates": {
+    "ragas": {
+      "faithfulness": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_valid": 5
+      },
+      "response_relevancy": {
+        "mean": 0.5489761220457426,
+        "ci95": [
+          0.332772823687732,
+          0.7654551901595802
+        ],
+        "n_valid": 5
+      },
+      "context_precision": {
+        "mean": 0.8666666665800001,
+        "ci95": [
+          0.59999999994,
+          0.9999999999
+        ],
+        "n_valid": 5
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_valid": 5
+      }
+    },
+    "retrieval": {
+      "k": 4,
+      "single_hit_at_k": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n_valid": 5
+      },
+      "single_mrr": {
+        "mean": 0.8666666666666668,
+        "ci95": [
+          0.6,
+          1.0
+        ],
+        "n_valid": 5
+      },
+      "multi_gold_coverage": {
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "n_valid": 0
+      }
+    },
+    "abstention": {
+      "unanswerable_abstained": 0,
+      "unanswerable_total": 0,
+      "rate": null,
+      "answerable_false_abstentions": 0,
+      "answerable_total": 5,
+      "false_abstention_rate": 0.0
+    },
+    "latency": {
+      "retrieval_ms": {
+        "p50": 370.11690001236275,
+        "p95": 483.3762600028422,
+        "n": 5
+      },
+      "generation_ms": {
+        "p50": 499.9115999962669,
+        "p95": 19007.353260001397,
+        "n": 5
+      },
+      "total_ms": {
+        "p50": 886.6319000080694,
+        "p95": 19483.896080002884,
+        "n": 5
+      }
+    },
+    "nan_metrics": {
+      "faithfulness": {
+        "count": 0,
+        "ids": []
+      },
+      "response_relevancy": {
+        "count": 0,
+        "ids": []
+      },
+      "context_precision": {
+        "count": 0,
+        "ids": []
+      },
+      "context_recall": {
+        "count": 0,
+        "ids": []
+      }
+    },
+    "by_type": {
+      "single": {
+        "ragas": {
+          "faithfulness": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "n_valid": 5
+          },
+          "response_relevancy": {
+            "mean": 0.5489761220457426,
+            "ci95": [
+              0.3219112156184188,
+              0.7760410284730666
+            ],
+            "n_valid": 5
+          },
+          "context_precision": {
+            "mean": 0.8666666665800001,
+            "ci95": [
+              0.59999999994,
+              0.9999999999
+            ],
+            "n_valid": 5
+          },
+          "context_recall": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "n_valid": 5
+          }
+        },
+        "retrieval": {
+          "hit_at_k": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "n_valid": 5
+          },
+          "mrr": {
+            "mean": 0.8666666666666668,
+            "ci95": [
+              0.6,
+              1.0
+            ],
+            "n_valid": 5
+          }
+        }
+      }
+    }
+  },
+  "warnings": []
+}

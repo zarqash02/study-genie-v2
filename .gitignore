@@ -1,0 +1,40 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+evaluation/.env
+evaluation/.env.*
+!evaluation/.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Evaluation outputs generated locally
+evaluation/cache/
+
+# User data and local databases
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+
+# Model and application caches
+.cache/
+.streamlit/secrets.toml
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

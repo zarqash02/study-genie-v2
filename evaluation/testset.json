@@ -1,0 +1,532 @@
+[
+  {
+    "id": "single-001",
+    "type": "single",
+    "question": "What is the purpose of few-shot learning?",
+    "reference": "Few-shot learning (n-shot prompting) teaches AI by showing examples of the desired input-output pattern; the \"N\" refers to the number of examples provided, helping the model understand what you want without lengthy explanations.",
+    "gold_chunks": [
+      "the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular character, expertise level, or communication style for the AI to adopt when responding. Can range from general roles (\"speak as a UX design expert\") to specific personas (\"explain this like Richard Feynman would\"). Output constraints/ output formatting Clearly specifying within your prompt the desired format, length, structure, or other characteristics of the Al's response to ensure you get exactly what you need. Think-first approach Explicitly asking the AI to work through its reasoning process before providing a final answer, which can lead to more thorough and well-considered responses. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license."
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-002",
+    "type": "single",
+    "question": "What AI technique connects models to external knowledge sources to improve accuracy?",
+    "reference": "Retrieval augmented generation (RAG) is a technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations.",
+    "gold_chunks": [
+      "Al Technical Concepts Generative Al AI systems that can create new content (text, images, code, etc.) rather than just analyzing existing data. Large language models (LLMs) Generative AI systems trained on vast amounts of text data to understand and generate human language. Claude Anthropic's family of large language models. Parameters The mathematical values within an AI model that determine how it processes information and relates different pieces of language to each other. Modern LLMs contain billions of parameters. Neural networks Computing systems similar to, but distinct from, biological brains. Composed of interconnected nodes organized in layers that learn patterns from data through training. Transformer architecture The breakthrough AI design from 2017 that enables LLMs to process sequences of text in parallel while paying attention to relationships between words across long passages. Scaling laws As AI models have grown larger and trained on more data with more computing power, their performance has improved in consistent patterns. This is an empirical observation. Perhaps most interestingly, entirely new capabilities can emerge at certain scale thresholds that weren't explicitly programmed. Pre-training The initial training phase where AI models learn patterns from vast amounts of text data, developing a foundational understanding of language and knowledge. Fine-tuning Additional training after pre-training where models learn to follow instructions, provide helpful responses, and avoid generating harmful content. Context window The amount of information an AI can consider at one time, including the conversation history and any documents you've shared. Has a maximum limit that varies by model. Hallucination A type of error when AI confidently states something that sounds plausible, but is actually incorrect. Knowledge cutoff date The point after which an AI model has no built-in knowledge of the world, based on when it was trained. Reasoning or thinking models Types of AI models specifically designed to think step-by- step through complex problems, showing improved capabilities for tasks requiring logical reasoning. Temperature A setting that controls how random an Al's responses are. \"Higher\" temperature produces more varied and creative outputs (think boiling water bubbling), while \"lower\" temperature produces more predictable and focused responses (think ice crystals). Retrieval augmented generation (RAG) A technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations. Bias Systematic patterns in AI outputs that unfairly favor or disadvantage certain groups or perspectives, often reflecting patterns in training data. Prompt Engineering Concepts Prompt The input given to an AI model, including instructions and any documents shared. Prompt engineering The practice of designing effective prompts for AI systems to produce desired outputs. Combines clear communication with Al-specific techniques. Chain-of-thought prompting Encouraging an AI to work through a problem step by step, breaking down complex tasks into smaller steps that help the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular"
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-003",
+    "type": "single",
+    "question": "What does the \"N\" represent in few-shot learning?",
+    "reference": "The \"N\" refers to the number of examples provided.",
+    "gold_chunks": [
+      "the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular character, expertise level, or communication style for the AI to adopt when responding. Can range from general roles (\"speak as a UX design expert\") to specific personas (\"explain this like Richard Feynman would\"). Output constraints/ output formatting Clearly specifying within your prompt the desired format, length, structure, or other characteristics of the Al's response to ensure you get exactly what you need. Think-first approach Explicitly asking the AI to work through its reasoning process before providing a final answer, which can lead to more thorough and well-considered responses. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license."
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-004",
+    "type": "single",
+    "question": "What does the temperature setting control in AI responses?",
+    "reference": "Temperature is a setting that controls how random an AI's responses are; higher temperature produces more varied and creative outputs, while lower temperature produces more predictable and focused outputs.",
+    "gold_chunks": [
+      "Al Technical Concepts Generative Al AI systems that can create new content (text, images, code, etc.) rather than just analyzing existing data. Large language models (LLMs) Generative AI systems trained on vast amounts of text data to understand and generate human language. Claude Anthropic's family of large language models. Parameters The mathematical values within an AI model that determine how it processes information and relates different pieces of language to each other. Modern LLMs contain billions of parameters. Neural networks Computing systems similar to, but distinct from, biological brains. Composed of interconnected nodes organized in layers that learn patterns from data through training. Transformer architecture The breakthrough AI design from 2017 that enables LLMs to process sequences of text in parallel while paying attention to relationships between words across long passages. Scaling laws As AI models have grown larger and trained on more data with more computing power, their performance has improved in consistent patterns. This is an empirical observation. Perhaps most interestingly, entirely new capabilities can emerge at certain scale thresholds that weren't explicitly programmed. Pre-training The initial training phase where AI models learn patterns from vast amounts of text data, developing a foundational understanding of language and knowledge. Fine-tuning Additional training after pre-training where models learn to follow instructions, provide helpful responses, and avoid generating harmful content. Context window The amount of information an AI can consider at one time, including the conversation history and any documents you've shared. Has a maximum limit that varies by model. Hallucination A type of error when AI confidently states something that sounds plausible, but is actually incorrect. Knowledge cutoff date The point after which an AI model has no built-in knowledge of the world, based on when it was trained. Reasoning or thinking models Types of AI models specifically designed to think step-by- step through complex problems, showing improved capabilities for tasks requiring logical reasoning. Temperature A setting that controls how random an Al's responses are. \"Higher\" temperature produces more varied and creative outputs (think boiling water bubbling), while \"lower\" temperature produces more predictable and focused responses (think ice crystals). Retrieval augmented generation (RAG) A technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations. Bias Systematic patterns in AI outputs that unfairly favor or disadvantage certain groups or perspectives, often reflecting patterns in training data. Prompt Engineering Concepts Prompt The input given to an AI model, including instructions and any documents shared. Prompt engineering The practice of designing effective prompts for AI systems to produce desired outputs. Combines clear communication with Al-specific techniques. Chain-of-thought prompting Encouraging an AI to work through a problem step by step, breaking down complex tasks into smaller steps that help the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular"
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-005",
+    "type": "single",
+    "question": "What are the four core competencies of AI Fluency called?",
+    "reference": "The four core competencies of AI Fluency are Delegation, Description, Discernment, and Diligence.",
+    "gold_chunks": [
+      "ANTHROP\\C Al Fluency: Key Terminology Cheat Sheet Core Al Fluency Framework Terms Al Fluency The ability to work with AI systems in ways that are effective, efficient, ethical, and safe. Includes practical skills, knowledge, insights, and values that help you adapt to evolving AI technologies. The4Ds The four core competencies of AI Fluency: Delegation, Description, Discernment, and Diligence. Delegation Deciding on what work should be done by humans, what work should be done by AI, and how to distribute tasks between them. Includes understanding your goals, AI capabilities, and making strategic choices about collaboration. • Problem Awareness: Clearly understanding your goals and the nature of the work before involving AI. • Platform Awareness: Understanding the capabilities and limitations of different AI systems. • Task Delegation: Thoughtfully distributing work between humans and AI to leverage the strengths of each. Description Effectively communicating with AI systems. Includes clearly defining outputs, guiding AI processes, and specifying desired AI behaviors and interactions. • Product Description: Defining what you want in terms of outputs, format, audience, and style • Process Description: Defining how the AI approaches your request, such as providing step by step instructions for the AI to follow • Performance Description: Defining the Al's behavior during your collaboration, such as whether it should be concise or detailed, challenging or supportive Discernment Thoughtfully and critically evaluating AI outputs, processes, behaviors and interactions. Includes assessing quality, accuracy, appropriateness, and determining areas for improvement. • Product Discernment: Evaluating the quality of what AI produces (accuracy, appropriateness, coherence, relevance) • Process Discernment: Evaluating how the AI arrived at its output, looking for logical errors, lapses in attention, or inappropriate reasoning steps • Performance Discernment: Evaluating how the AI behaves during your interaction, considering whether its communication style is effective for your needs Diligence Using AI responsibly and ethically. Includes making thoughtful choices about AI systems and interactions, maintaining transparency, and taking accountability for Al-assisted work. • Creation Diligence: Being thoughtful about which AI systems you use and how you interact with them • Transparency Diligence: Being honest about Al's role in your work with everyone who needs to know • Deployment Diligence: Taking responsibility for verifying and vouching for the outputs you use or share Human-Al Interaction Modes Automation When AI performs specific tasks based on specific human instructions. The human defines what needs to be done, and the AI executes it. Augmentation When humans and AI collaborate as thinking partners to complete tasks together. Involves iterative back-and-forth where both contribute to the outcome. Agency When humans configure AI to work independently on their behalf, including interacting with other humans or AI. The human establishes the Al's knowledge and behavior patterns rather than specifying exact actions. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license."
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-006",
+    "type": "single",
+    "question": "What characteristic of the tanh activation function helps reduce the vanishing gradient problem compared to sigmoid?",
+    "reference": "Tanh helps mitigate the vanishing gradient problem (to some extent), especially when compared to sigmoid, because the gradient of the tanh function is generally higher than that of the sigmoid.",
+    "gold_chunks": [
+      "2. Centered Around Zero: The output of the tanh function is centered around 0, unlike the sigmoid function, which outputs values between 0 and 1. This makes the tanh activation function more useful for many types of tasks, as the mean of the output is closer to zero, leading to more efficient training and faster convergence. 3. Gradient Behavior: Tanh helps mitigate the vanishing gradient problem (to some extent), especially when compared to sigmoid activation. This is because the gradient of the tanh function is generally higher than that of the sigmoid, enabling better weight updates during backpropagation. Derivative of Tanh The derivative of the tanh function is also useful in the backpropagation step of training neural networks: The derivative is always positive and is maximum at 0, which helps with gradient-based optimization. However, just like the sigmoid, tanh also suffers from the vanishing gradient problem when the input values are too large or too small. This can cause gradients to become very small, leading to slower training in deeper networks. 4.ReLU Activation Function Rectified Linear Unit (ReLU) is a popular activation functions used in neural networks, especially in deep learning models. It has become the default choice in many architectures due to its simplicity and efficiency. The ReLU function is a piecewise linear function that outputs the input directly if it is positive; otherwise, it outputs zero. In simpler terms, ReLU allows positive values to pass through unchanged while setting all negative values to zero. This helps the neural network maintain the necessary complexity to learn patterns while avoiding some of the pitfalls associated with other activation functions, like the vanishing gradient problem. The ReLU function can be described mathematically as follows:"
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-007",
+    "type": "single",
+    "question": "What does the Softmax activation function convert into probabilities?",
+    "reference": "Softmax activation function converts a vector of raw prediction scores (often called logits) from the neural network into probabilities.",
+    "gold_chunks": [
+      "Activation Functions: 1.Softmax Activation Function The softmax activation function has its roots in statistical mechanics and information theory, particularly in the context of the Boltzmann distribution. It was first introduced as the Boltzmann distribution function in the 19th century to describe the distribution of particles in thermodynamics. Softmax function is a mathematical function that converts a vector of raw prediction scores (often called logits) from the neural network into probabilities. These probabilities are distributed across different classes such that their sum equals 1. Essentially, Softmax helps in transforming output values into a format that can be interpreted as probabilities, which makes it suitable for classification tasks. In a multi-class classification neural network, the final layer outputs a set of values, each corresponding to a different class. These values, before Softmax is applied, can be any real numbers, and may not provide meaningful information directly. The Softmax function processes these values into probabilities, which indicate the likelihood of each class being the correct one. Softmax gained prominence with the rise of deep learning, particularly in models such as multilayer perceptrons (MLPs) and convolutional neural networks (CNNs), where it is typically applied to the final output layer in classification tasks.. How Softmax Works? Let's break down how Softmax works in neural networks, complete with formulas and a step-by-step explanation:"
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-008",
+    "type": "single",
+    "question": "Why does adding a hidden layer with a sigmoid activation function improve performance on non‑linear datasets?",
+    "reference": "Adding a hidden layer with a sigmoid activation function gives the model the ability to handle non‑linearity, thereby improving performance on non‑linear datasets.",
+    "gold_chunks": [
+      "Sigmoid Function in Backpropagation If we use a linear activation function in a neural network, the model will only be able to separate data linearly, which results in poor performance on non- linear datasets. However, by adding a hidden layer with a sigmoid activation function, the model gains the ability to handle non-linearity, thereby improving performance. During the backpropagation, the model calculates and updates weights and biases by computing the derivative of the activation function. The sigmoid function is useful because: • It is the only function that appears in its derivative. • It is differentiable at every point, which helps in the effective computation of gradients during backpropagation."
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-009",
+    "type": "single",
+    "question": "For what kind of classification problems is the sigmoid activation function employed?",
+    "reference": "Sigmoid function is used as an activation function in machine learning and neural networks for modeling binary classification problems.",
+    "gold_chunks": [
+      "2.Sigmoid Activation Function Sigmoid function is used as an activation function in machine learning and neural networks for modeling binary classification problems, smoothing outputs, and introducing non-linearity into models. In machine learning, xx could be a weighted sum of inputs in a neural network neuron or a raw score in logistic regression. If the output value is close to 1, it indicates high confidence in one class and if the value is close to 0, it indicates high confidence in the other class."
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-010",
+    "type": "single",
+    "question": "What two main reasons make ReLU a popular activation function?",
+    "reference": "ReLU is popular because it is simple and computationally efficient, requiring only a thresholding operation, and because it is a non‑linear function that enables the model to learn complex data patterns.",
+    "gold_chunks": [
+      "Why is ReLU Popular? • Simplicity: ReLU is computationally efficient as it involves only a thresholding operation. This simplicity makes it easy to implement and compute, which is important when training deep neural networks with millions of parameters. • Non-Linearity: Although it seems like a piecewise linear function, ReLU is still a non-linear function. This allows the model to learn more complex data patterns and model intricate relationships between features."
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-011",
+    "type": "single",
+    "question": "Which articulation type is produced when the back of the tongue touches the uvula?",
+    "reference": "Uvular: This sound is produced when the back of the tongue touches the uvula.",
+    "gold_chunks": [
+      "ET60007 © CET, IITKGP g. Palatal: This sound is produced when the constriction is made by the front part of the tongue with the hard palate. h. Velar: It refers to a sound made by the back of the tongue against the soft palate. i. Uvular: This sound is produced when the back of the tongue touches the uvula. j. Pharyngeal: It refers to a sound produced in the pharynx, the tubular cavity, which constitutes the throat above the larynx. k. Glottal: These are the sounds, which made in the larynx due to the closure or narrowing of the glottis."
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-012",
+    "type": "single",
+    "question": "What is the voicing status when the glottis is closed?",
+    "reference": "If the glottis are closed then it is voiced",
+    "gold_chunks": [
+      "ET60007 © CET, IITKGP 21 If the glottis are closed then it is voiced and if opened then it is unvoiced or voiceless. Manners of Articulation due to State of the Glottis"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-013",
+    "type": "single",
+    "question": "What does glottal flow represent in speech production?",
+    "reference": "Glottal flow is the airflow through the vocal folds during phonation.",
+    "gold_chunks": [
+      "Glottal Flow"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-014",
+    "type": "single",
+    "question": "What element of the source‑filter model shapes the vocal tract resonances?",
+    "reference": "In the source‑filter model, the filter corresponds to the vocal tract, which shapes the acoustic resonances of the glottal source.",
+    "gold_chunks": [
+      "ET60007 © CET, IITKGP Human Speech Production and Source Filter model"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-015",
+    "type": "single",
+    "question": "Which place of articulation is associated with the consonant /k/?",
+    "reference": "/k/ Velar",
+    "gold_chunks": [
+      "20 Manners and Place of Articulation Place of articulation: During the articulation the airstreams through the vocal tract must be obstructed in some way. The place where the obstruction takes place is called the place of articulation Manner of articulation: Manner of articulation is concerned with airflow ; the paths it take and the degree to which it is impeded by vocal tract constrictions. The consonants are classified depending on the place of obstruction and manner of articulation. /k/ Velar Un-aspirated unvoiced stop Vowel sound specified in terms of the position of the tongue and the position of the lips. /i/ High front Un-rounded"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-016",
+    "type": "single",
+    "question": "Which three bones constitute the middle ear's mechanical transducer?",
+    "reference": "The middle ear is a mechanical transducer, consisting of the hammer, anvil and stirrup.",
+    "gold_chunks": [
+      "Human Ear Outer ear: funnels sound into ear canal Middle ear: sound impinges on tympanic membrane; this causes motion • Middle ear is a mechanical transducer, consisting of the hammer, anvil and stirrup; it converts acoustical sound wave to mechanical vibrations along the inner ear Inner ear: the cochlea is a fluid-filled chamber partitioned by the basilar membrane • The auditory nerve is connected to the basilar membrane via inner hair cells • Mechanical vibrations at the entrance to the cochlea create standing waves (of fluid inside the cochlea) causing basilar membrane to vibrate at frequencies commensurate with the input acoustic wave frequencies (formants) and at a place along the basilar membrane that is associated with these frequencies"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-017",
+    "type": "single",
+    "question": "What auditory function enables focusing on a selected sound source among many?",
+    "reference": "Sound cancellation – focus attention on a ‘selected’ sound source in an array of sound sources – ‘cocktail party effect’",
+    "gold_chunks": [
+      "Sound localization – spatially locate sound sources in 3-dimensional sound fields Sound cancellation – focus attention on a ‘selected’ sound source in an array of sound sources – ‘cocktail party effect’ Effect of listening over headphones => localize sounds inside the head (rather than spatially outside the head) Why Do We Have Two Ears"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-018",
+    "type": "single",
+    "question": "Which scientific discipline includes auditory perception as a branch?",
+    "reference": "Auditory perception is a branch of psychophysics.",
+    "gold_chunks": [
+      "Auditory Perception Auditory perception is a branch of psychophysics. Psychophysics studies relationships between perception and physical properties of stimuli. Physical dimensions: Aspects of a physical stimulus that can be measured with an instrument (e.g., a light meter, a sound level meter, a spectrum analyzer, a fundamental frequency meter, etc.) Perceptual dimensions: These are the mental experiences that occur inside the mind of the observer. These experiences are actively created by the sensory system and brain based on an analysis of the physical properties of the stimulus. Perceptual dimensions can be measured, but not with a meter. Measuring perceptual dimensions requires an observer (e.g., a listener)."
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-019",
+    "type": "single",
+    "question": "What term describes the frequency at which the basilar membrane shows maximum response?",
+    "reference": "The peak frequency at which maximum response occurs along the basilar membrane is called the characteristic frequency.",
+    "gold_chunks": [
+      "Basilar Membrane Motion The ear is excited by the input acoustic wave which has the spectral properties of the speech being produced Different regions of the BM respond maximally to different input frequencies => frequency tuning occurs along BM The BM acts like a bank of non-uniform cochlear filters Roughly logarithmic increase in BW of filters (<800 Hz has equal BW) => constant Q filters with BW decreasing as we move away from cochlear opening Peak frequency at which maximum response occurs along the BM is called the characteristic frequency"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "single-020",
+    "type": "single",
+    "question": "What process allows listeners to interpret spoken sounds as meaningful language?",
+    "reference": "Speech perception is the process by which listeners interpret spoken sounds as meaningful language.",
+    "gold_chunks": [
+      "Speech Perception"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-001",
+    "type": "multi",
+    "question": "In prompt engineering, how do few-shot learning examples and a defined persona together affect the specification of output constraints?",
+    "reference": "Few-shot learning teaches the model by providing N example input‑output pairs, while role or persona definition assigns a specific character, expertise level, or communication style to the model; combining these techniques leads prompt engineers to include explicit output constraints that dictate the desired format, length, or structure of the response, ensuring the output matches both the example pattern and the persona’s style.",
+    "gold_chunks": [
+      "Al Technical Concepts Generative Al AI systems that can create new content (text, images, code, etc.) rather than just analyzing existing data. Large language models (LLMs) Generative AI systems trained on vast amounts of text data to understand and generate human language. Claude Anthropic's family of large language models. Parameters The mathematical values within an AI model that determine how it processes information and relates different pieces of language to each other. Modern LLMs contain billions of parameters. Neural networks Computing systems similar to, but distinct from, biological brains. Composed of interconnected nodes organized in layers that learn patterns from data through training. Transformer architecture The breakthrough AI design from 2017 that enables LLMs to process sequences of text in parallel while paying attention to relationships between words across long passages. Scaling laws As AI models have grown larger and trained on more data with more computing power, their performance has improved in consistent patterns. This is an empirical observation. Perhaps most interestingly, entirely new capabilities can emerge at certain scale thresholds that weren't explicitly programmed. Pre-training The initial training phase where AI models learn patterns from vast amounts of text data, developing a foundational understanding of language and knowledge. Fine-tuning Additional training after pre-training where models learn to follow instructions, provide helpful responses, and avoid generating harmful content. Context window The amount of information an AI can consider at one time, including the conversation history and any documents you've shared. Has a maximum limit that varies by model. Hallucination A type of error when AI confidently states something that sounds plausible, but is actually incorrect. Knowledge cutoff date The point after which an AI model has no built-in knowledge of the world, based on when it was trained. Reasoning or thinking models Types of AI models specifically designed to think step-by- step through complex problems, showing improved capabilities for tasks requiring logical reasoning. Temperature A setting that controls how random an Al's responses are. \"Higher\" temperature produces more varied and creative outputs (think boiling water bubbling), while \"lower\" temperature produces more predictable and focused responses (think ice crystals). Retrieval augmented generation (RAG) A technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations. Bias Systematic patterns in AI outputs that unfairly favor or disadvantage certain groups or perspectives, often reflecting patterns in training data. Prompt Engineering Concepts Prompt The input given to an AI model, including instructions and any documents shared. Prompt engineering The practice of designing effective prompts for AI systems to produce desired outputs. Combines clear communication with Al-specific techniques. Chain-of-thought prompting Encouraging an AI to work through a problem step by step, breaking down complex tasks into smaller steps that help the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular",
+      "the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular character, expertise level, or communication style for the AI to adopt when responding. Can range from general roles (\"speak as a UX design expert\") to specific personas (\"explain this like Richard Feynman would\"). Output constraints/ output formatting Clearly specifying within your prompt the desired format, length, structure, or other characteristics of the Al's response to ensure you get exactly what you need. Think-first approach Explicitly asking the AI to work through its reasoning process before providing a final answer, which can lead to more thorough and well-considered responses. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license."
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-002",
+    "type": "multi",
+    "question": "In what way do automation and augmentation interaction modes affect delegation choices for AI systems with billions of parameters?",
+    "reference": "Automation is an interaction mode where AI executes specific tasks defined by a human, while augmentation involves humans and AI collaborating as thinking partners. Delegation is the competency of deciding which work should be done by humans and which by AI. Parameters are the mathematical values within an AI model that determine how it processes information, and modern large language models contain billions of parameters.",
+    "gold_chunks": [
+      "ANTHROP\\C Al Fluency: Key Terminology Cheat Sheet Core Al Fluency Framework Terms Al Fluency The ability to work with AI systems in ways that are effective, efficient, ethical, and safe. Includes practical skills, knowledge, insights, and values that help you adapt to evolving AI technologies. The4Ds The four core competencies of AI Fluency: Delegation, Description, Discernment, and Diligence. Delegation Deciding on what work should be done by humans, what work should be done by AI, and how to distribute tasks between them. Includes understanding your goals, AI capabilities, and making strategic choices about collaboration. • Problem Awareness: Clearly understanding your goals and the nature of the work before involving AI. • Platform Awareness: Understanding the capabilities and limitations of different AI systems. • Task Delegation: Thoughtfully distributing work between humans and AI to leverage the strengths of each. Description Effectively communicating with AI systems. Includes clearly defining outputs, guiding AI processes, and specifying desired AI behaviors and interactions. • Product Description: Defining what you want in terms of outputs, format, audience, and style • Process Description: Defining how the AI approaches your request, such as providing step by step instructions for the AI to follow • Performance Description: Defining the Al's behavior during your collaboration, such as whether it should be concise or detailed, challenging or supportive Discernment Thoughtfully and critically evaluating AI outputs, processes, behaviors and interactions. Includes assessing quality, accuracy, appropriateness, and determining areas for improvement. • Product Discernment: Evaluating the quality of what AI produces (accuracy, appropriateness, coherence, relevance) • Process Discernment: Evaluating how the AI arrived at its output, looking for logical errors, lapses in attention, or inappropriate reasoning steps • Performance Discernment: Evaluating how the AI behaves during your interaction, considering whether its communication style is effective for your needs Diligence Using AI responsibly and ethically. Includes making thoughtful choices about AI systems and interactions, maintaining transparency, and taking accountability for Al-assisted work. • Creation Diligence: Being thoughtful about which AI systems you use and how you interact with them • Transparency Diligence: Being honest about Al's role in your work with everyone who needs to know • Deployment Diligence: Taking responsibility for verifying and vouching for the outputs you use or share Human-Al Interaction Modes Automation When AI performs specific tasks based on specific human instructions. The human defines what needs to be done, and the AI executes it. Augmentation When humans and AI collaborate as thinking partners to complete tasks together. Involves iterative back-and-forth where both contribute to the outcome. Agency When humans configure AI to work independently on their behalf, including interacting with other humans or AI. The human establishes the Al's knowledge and behavior patterns rather than specifying exact actions. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license.",
+      "Al Technical Concepts Generative Al AI systems that can create new content (text, images, code, etc.) rather than just analyzing existing data. Large language models (LLMs) Generative AI systems trained on vast amounts of text data to understand and generate human language. Claude Anthropic's family of large language models. Parameters The mathematical values within an AI model that determine how it processes information and relates different pieces of language to each other. Modern LLMs contain billions of parameters. Neural networks Computing systems similar to, but distinct from, biological brains. Composed of interconnected nodes organized in layers that learn patterns from data through training. Transformer architecture The breakthrough AI design from 2017 that enables LLMs to process sequences of text in parallel while paying attention to relationships between words across long passages. Scaling laws As AI models have grown larger and trained on more data with more computing power, their performance has improved in consistent patterns. This is an empirical observation. Perhaps most interestingly, entirely new capabilities can emerge at certain scale thresholds that weren't explicitly programmed. Pre-training The initial training phase where AI models learn patterns from vast amounts of text data, developing a foundational understanding of language and knowledge. Fine-tuning Additional training after pre-training where models learn to follow instructions, provide helpful responses, and avoid generating harmful content. Context window The amount of information an AI can consider at one time, including the conversation history and any documents you've shared. Has a maximum limit that varies by model. Hallucination A type of error when AI confidently states something that sounds plausible, but is actually incorrect. Knowledge cutoff date The point after which an AI model has no built-in knowledge of the world, based on when it was trained. Reasoning or thinking models Types of AI models specifically designed to think step-by- step through complex problems, showing improved capabilities for tasks requiring logical reasoning. Temperature A setting that controls how random an Al's responses are. \"Higher\" temperature produces more varied and creative outputs (think boiling water bubbling), while \"lower\" temperature produces more predictable and focused responses (think ice crystals). Retrieval augmented generation (RAG) A technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations. Bias Systematic patterns in AI outputs that unfairly favor or disadvantage certain groups or perspectives, often reflecting patterns in training data. Prompt Engineering Concepts Prompt The input given to an AI model, including instructions and any documents shared. Prompt engineering The practice of designing effective prompts for AI systems to produce desired outputs. Combines clear communication with Al-specific techniques. Chain-of-thought prompting Encouraging an AI to work through a problem step by step, breaking down complex tasks into smaller steps that help the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular"
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-003",
+    "type": "multi",
+    "question": "How do tanh’s zero‑centering and output range compared to sigmoid affect training efficiency and gradient behavior?",
+    "reference": "Sigmoid maps any real number to a 0‑1 range, while tanh maps to –1‑1 and is centered around zero; this zero‑centering makes the mean output closer to zero, leading to more efficient training and faster convergence, and tanh’s gradient is generally higher than sigmoid’s, helping mitigate the vanishing gradient problem.",
+    "gold_chunks": [
+      "What is the Sigmoid Function? Sigmoid function is a mathematical function that produces an S-shaped curve, mapping any real-valued number to a range between 0 and 1. Why is the Sigmoid Function used in neural networks? Sigmoid function is used in neural networks as an activation function because it introduces non-linearity into the model. 3.Tanh Activation Activation Function Why Use Tanh in Neural Networks? The tanh function has several advantages that make it widely used in neural networks: 1. Non-linearity: Tanh introduces non-linearity to the model, which allows neural networks to learn complex patterns and relationships in the data. Without non-linear activation functions, a neural network would essentially behave as a linear model, no matter how many layers it has.",
+      "2. Centered Around Zero: The output of the tanh function is centered around 0, unlike the sigmoid function, which outputs values between 0 and 1. This makes the tanh activation function more useful for many types of tasks, as the mean of the output is closer to zero, leading to more efficient training and faster convergence. 3. Gradient Behavior: Tanh helps mitigate the vanishing gradient problem (to some extent), especially when compared to sigmoid activation. This is because the gradient of the tanh function is generally higher than that of the sigmoid, enabling better weight updates during backpropagation. Derivative of Tanh The derivative of the tanh function is also useful in the backpropagation step of training neural networks: The derivative is always positive and is maximum at 0, which helps with gradient-based optimization. However, just like the sigmoid, tanh also suffers from the vanishing gradient problem when the input values are too large or too small. This can cause gradients to become very small, leading to slower training in deeper networks. 4.ReLU Activation Function Rectified Linear Unit (ReLU) is a popular activation functions used in neural networks, especially in deep learning models. It has become the default choice in many architectures due to its simplicity and efficiency. The ReLU function is a piecewise linear function that outputs the input directly if it is positive; otherwise, it outputs zero. In simpler terms, ReLU allows positive values to pass through unchanged while setting all negative values to zero. This helps the neural network maintain the necessary complexity to learn patterns while avoiding some of the pitfalls associated with other activation functions, like the vanishing gradient problem. The ReLU function can be described mathematically as follows:"
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-004",
+    "type": "multi",
+    "question": "Which activation function is known for computational efficiency through simple thresholding while still providing non‑linearity, and why is sigmoid preferred for binary classification tasks?",
+    "reference": "ReLU is popular because it uses a simple thresholding operation that makes it computationally efficient and, despite being piecewise linear, it remains a non‑linear function that enables learning complex patterns; sigmoid, in contrast, is used as an activation function for binary classification, providing smooth outputs that map inputs to values near 0 or 1 to indicate confidence in each class.",
+    "gold_chunks": [
+      "2.Sigmoid Activation Function Sigmoid function is used as an activation function in machine learning and neural networks for modeling binary classification problems, smoothing outputs, and introducing non-linearity into models. In machine learning, xx could be a weighted sum of inputs in a neural network neuron or a raw score in logistic regression. If the output value is close to 1, it indicates high confidence in one class and if the value is close to 0, it indicates high confidence in the other class.",
+      "Why is ReLU Popular? • Simplicity: ReLU is computationally efficient as it involves only a thresholding operation. This simplicity makes it easy to implement and compute, which is important when training deep neural networks with millions of parameters. • Non-Linearity: Although it seems like a piecewise linear function, ReLU is still a non-linear function. This allows the model to learn more complex data patterns and model intricate relationships between features."
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-005",
+    "type": "multi",
+    "question": "Why are both sigmoid and tanh activation functions employed in neural networks, and what distinct role does sigmoid play in binary classification?",
+    "reference": "Sigmoid is used as an activation function in machine learning and neural networks for modeling binary classification problems, smoothing outputs, and introducing non‑linearity, mapping any real‑valued number to a range between 0 and 1. Tanh is also an activation function that introduces non‑linearity to neural networks, allowing them to learn complex patterns.",
+    "gold_chunks": [
+      "2.Sigmoid Activation Function Sigmoid function is used as an activation function in machine learning and neural networks for modeling binary classification problems, smoothing outputs, and introducing non-linearity into models. In machine learning, xx could be a weighted sum of inputs in a neural network neuron or a raw score in logistic regression. If the output value is close to 1, it indicates high confidence in one class and if the value is close to 0, it indicates high confidence in the other class.",
+      "What is the Sigmoid Function? Sigmoid function is a mathematical function that produces an S-shaped curve, mapping any real-valued number to a range between 0 and 1. Why is the Sigmoid Function used in neural networks? Sigmoid function is used in neural networks as an activation function because it introduces non-linearity into the model. 3.Tanh Activation Activation Function Why Use Tanh in Neural Networks? The tanh function has several advantages that make it widely used in neural networks: 1. Non-linearity: Tanh introduces non-linearity to the model, which allows neural networks to learn complex patterns and relationships in the data. Without non-linear activation functions, a neural network would essentially behave as a linear model, no matter how many layers it has."
+    ],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-006",
+    "type": "multi",
+    "question": "In what way does the study of phonetics connect to the human speech production system revealed by MRI imaging?",
+    "reference": "Phonetics is the study of the sounds of speech, and MRI of speech visualizes the human production system.",
+    "gold_chunks": [
+      "ET60007 © CET, IITKGP Basics Definitions Speech is composed of a sequence of sounds Sounds/Phonemes serve as a symbolic representation of information to be shared between humans (or humans and machines) Arrangement of sounds is governed by rules of language (constraints on sound sequences, word sequences, etc) Linguistics is the study of the rules of language Phonetics is the study of the sounds of speech",
+      "ET60007 © CET, IITKGP MRI of Speech Human Production system (Prof. Shri Narayanan, USC)"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-007",
+    "type": "multi",
+    "question": "In what way does glottal flow differ between the velar stop /k/ and the high front vowel /i/ regarding airflow obstruction?",
+    "reference": "Glottal flow is the airflow produced at the glottis. The consonant /k/ is a velar un‑aspirated unvoiced stop, which blocks airflow at the velum, while the vowel /i/ is a high front unrounded vowel that allows an open vocal tract, resulting in continuous glottal flow.",
+    "gold_chunks": [
+      "Glottal Flow",
+      "20 Manners and Place of Articulation Place of articulation: During the articulation the airstreams through the vocal tract must be obstructed in some way. The place where the obstruction takes place is called the place of articulation Manner of articulation: Manner of articulation is concerned with airflow ; the paths it take and the degree to which it is impeded by vocal tract constrictions. The consonants are classified depending on the place of obstruction and manner of articulation. /k/ Velar Un-aspirated unvoiced stop Vowel sound specified in terms of the position of the tongue and the position of the lips. /i/ High front Un-rounded"
+    ],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-008",
+    "type": "multi",
+    "question": "In the black‑box auditory model, how are variations in the spectrum envelope (timbre) used to determine the brain’s processing of different sound sources?",
+    "reference": "The black‑box model assumes an acoustic signal enters the auditory system and records psychophysical observations that are correlated with physical attributes such as spectral characteristics; timbre is defined as complex patterns added to the fundamental frequency, known as the spectrum envelope, which allow listeners to distinguish musical instruments. By systematically varying the spectrum envelope in experiments, researchers can observe how the auditory system processes timbre, linking physical sound attributes to behavioral responses.",
+    "gold_chunks": [
+      "The Black Box Model of the Auditory System Researchers have resorted to a “black box” behavioral model of hearing and perception I. Model assumes that an acoustic signal enters the auditory system causing behavior that we record as psychophysical observations II. Psychophysical methods and sound perception experiments determine how the brain processes signals with different loudness levels, different spectral characteristics, and different temporal properties III. Characteristics of the physical sound are varied in a systematic manner and the psychophysical observations of the human listener are recorded and correlated with the physical attributes of the incoming sound IV. Then determine how various attributes of sound (or speech) are processed by the auditory system",
+      "Spring 2006 IEOR 170 29 Perceptual Dimensions (cont.) • Timbre – complex patterns added to the lowest, or fundamental, frequency of a sound, referred to as spectrum envelope – spectrum envelopes enable us to distinguish musical instruments • Multiples of fundamental frequency give music • Multiples of unrelated frequencies give noise"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-009",
+    "type": "multi",
+    "question": "How does sound travel from the outer ear to the brain via the auditory nerve?",
+    "reference": "Sound enters the pinna and external canal, vibrates the tympanic membrane in the middle ear, is converted in the cochlea of the inner ear, and the auditory nerve carries the resulting electrical impulses (also from the semicircular canals) to auditory areas of the brain.",
+    "gold_chunks": [
+      "The Human Ear Outer ear: pinna and external canal Middle ear: tympanic membrane or eardrum Inner ear: cochlea, neural connections",
+      "The Auditory Nerve Taking electrical impulses from the cochlea and the semicircular canals, the auditory nerve makes connections with both auditory areas of the brain."
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "multi-010",
+    "type": "multi",
+    "question": "How do physiological models of hearing and black‑box psychophysical observations together guide the development of speech recognition systems?",
+    "reference": "Physiological models of hearing help identify how the auditory system processes speech, informing the design of speech processing technologies such as speech recognition (Source 1). The black‑box model systematically varies acoustic attributes and records psychophysical observations to correlate physical sound properties with brain processing (Source 2). Combining these insights links physical sound characteristics to perceptual behavior, enabling the creation of robust speech recognition systems.",
+    "gold_chunks": [
+      "Understanding how we hear sounds and how we perceive speech  better design and implementation of robust and efficient systems for analyzing and representing speech the better we understand signal processing in the human auditory system, the better we can (at least in theory) design practical speech processing systems like: – speech coding – speech recognition Try to understand speech perception by looking at the physiological models of hearing Speech Perception",
+      "The Black Box Model of the Auditory System Researchers have resorted to a “black box” behavioral model of hearing and perception I. Model assumes that an acoustic signal enters the auditory system causing behavior that we record as psychophysical observations II. Psychophysical methods and sound perception experiments determine how the brain processes signals with different loudness levels, different spectral characteristics, and different temporal properties III. Characteristics of the physical sound are varied in a systematic manner and the psychophysical observations of the human listener are recorded and correlated with the physical attributes of the incoming sound IV. Then determine how various attributes of sound (or speech) are processed by the auditory system"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "summary-001",
+    "type": "summary",
+    "question": "In what ways do the four core competencies of AI Fluency influence the choice between automation, augmentation, and agency when applying prompt engineering methods like few-shot learning and role definition?",
+    "reference": "The AI Fluency framework defines four competencies—Delegation, Description, Discernment, and Diligence—that shape how humans decide task distribution and communication with AI. It also outlines three interaction modes: automation (AI follows explicit human instructions), augmentation (human and AI collaborate iteratively), and agency (AI operates independently based on configured behavior). Prompt engineering techniques such as few-shot learning, role or persona definition, and output constraints are used to guide large language models, which are built on transformer architectures, contain billions of parameters, and follow pre‑training and fine‑tuning processes. Combining these, the competencies inform whether a user should automate a task, augment with iterative prompting, or grant agency to the model when employing methods like few-shot examples and persona specifications.",
+    "gold_chunks": [
+      "ANTHROP\\C Al Fluency: Key Terminology Cheat Sheet Core Al Fluency Framework Terms Al Fluency The ability to work with AI systems in ways that are effective, efficient, ethical, and safe. Includes practical skills, knowledge, insights, and values that help you adapt to evolving AI technologies. The4Ds The four core competencies of AI Fluency: Delegation, Description, Discernment, and Diligence. Delegation Deciding on what work should be done by humans, what work should be done by AI, and how to distribute tasks between them. Includes understanding your goals, AI capabilities, and making strategic choices about collaboration. • Problem Awareness: Clearly understanding your goals and the nature of the work before involving AI. • Platform Awareness: Understanding the capabilities and limitations of different AI systems. • Task Delegation: Thoughtfully distributing work between humans and AI to leverage the strengths of each. Description Effectively communicating with AI systems. Includes clearly defining outputs, guiding AI processes, and specifying desired AI behaviors and interactions. • Product Description: Defining what you want in terms of outputs, format, audience, and style • Process Description: Defining how the AI approaches your request, such as providing step by step instructions for the AI to follow • Performance Description: Defining the Al's behavior during your collaboration, such as whether it should be concise or detailed, challenging or supportive Discernment Thoughtfully and critically evaluating AI outputs, processes, behaviors and interactions. Includes assessing quality, accuracy, appropriateness, and determining areas for improvement. • Product Discernment: Evaluating the quality of what AI produces (accuracy, appropriateness, coherence, relevance) • Process Discernment: Evaluating how the AI arrived at its output, looking for logical errors, lapses in attention, or inappropriate reasoning steps • Performance Discernment: Evaluating how the AI behaves during your interaction, considering whether its communication style is effective for your needs Diligence Using AI responsibly and ethically. Includes making thoughtful choices about AI systems and interactions, maintaining transparency, and taking accountability for Al-assisted work. • Creation Diligence: Being thoughtful about which AI systems you use and how you interact with them • Transparency Diligence: Being honest about Al's role in your work with everyone who needs to know • Deployment Diligence: Taking responsibility for verifying and vouching for the outputs you use or share Human-Al Interaction Modes Automation When AI performs specific tasks based on specific human instructions. The human defines what needs to be done, and the AI executes it. Augmentation When humans and AI collaborate as thinking partners to complete tasks together. Involves iterative back-and-forth where both contribute to the outcome. Agency When humans configure AI to work independently on their behalf, including interacting with other humans or AI. The human establishes the Al's knowledge and behavior patterns rather than specifying exact actions. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license.",
+      "Al Technical Concepts Generative Al AI systems that can create new content (text, images, code, etc.) rather than just analyzing existing data. Large language models (LLMs) Generative AI systems trained on vast amounts of text data to understand and generate human language. Claude Anthropic's family of large language models. Parameters The mathematical values within an AI model that determine how it processes information and relates different pieces of language to each other. Modern LLMs contain billions of parameters. Neural networks Computing systems similar to, but distinct from, biological brains. Composed of interconnected nodes organized in layers that learn patterns from data through training. Transformer architecture The breakthrough AI design from 2017 that enables LLMs to process sequences of text in parallel while paying attention to relationships between words across long passages. Scaling laws As AI models have grown larger and trained on more data with more computing power, their performance has improved in consistent patterns. This is an empirical observation. Perhaps most interestingly, entirely new capabilities can emerge at certain scale thresholds that weren't explicitly programmed. Pre-training The initial training phase where AI models learn patterns from vast amounts of text data, developing a foundational understanding of language and knowledge. Fine-tuning Additional training after pre-training where models learn to follow instructions, provide helpful responses, and avoid generating harmful content. Context window The amount of information an AI can consider at one time, including the conversation history and any documents you've shared. Has a maximum limit that varies by model. Hallucination A type of error when AI confidently states something that sounds plausible, but is actually incorrect. Knowledge cutoff date The point after which an AI model has no built-in knowledge of the world, based on when it was trained. Reasoning or thinking models Types of AI models specifically designed to think step-by- step through complex problems, showing improved capabilities for tasks requiring logical reasoning. Temperature A setting that controls how random an Al's responses are. \"Higher\" temperature produces more varied and creative outputs (think boiling water bubbling), while \"lower\" temperature produces more predictable and focused responses (think ice crystals). Retrieval augmented generation (RAG) A technique that connects AI models to external knowledge sources to improve accuracy and reduce hallucinations. Bias Systematic patterns in AI outputs that unfairly favor or disadvantage certain groups or perspectives, often reflecting patterns in training data. Prompt Engineering Concepts Prompt The input given to an AI model, including instructions and any documents shared. Prompt engineering The practice of designing effective prompts for AI systems to produce desired outputs. Combines clear communication with Al-specific techniques. Chain-of-thought prompting Encouraging an AI to work through a problem step by step, breaking down complex tasks into smaller steps that help the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular",
+      "the AI follow your thinking and deliver better results. Few-shot learning (n-shot prompting) Teaching AI by showing examples of the desired input- output pattern. The \"N\" refers to the number of examples provided. Helps the model understand what you want without lengthy explanations. Role or persona definition Specifying a particular character, expertise level, or communication style for the AI to adopt when responding. Can range from general roles (\"speak as a UX design expert\") to specific personas (\"explain this like Richard Feynman would\"). Output constraints/ output formatting Clearly specifying within your prompt the desired format, length, structure, or other characteristics of the Al's response to ensure you get exactly what you need. Think-first approach Explicitly asking the AI to work through its reasoning process before providing a final answer, which can lead to more thorough and well-considered responses. Copyright 2025 Rick Dakan, Joseph Feller, and Anthropic. Released under the CC BY-NC-SA 4.0 license."
+    ],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "summary-002",
+    "type": "summary",
+    "question": "What sequence of anatomical structures converts incoming sound waves into neural signals within the human ear?",
+    "reference": "Sound enters the outer ear and is funneled through the ear canal to the tympanic membrane. The middle ear ossicles—hammer, anvil, and stirrup—act as a mechanical transducer that changes acoustic energy into vibrations transmitted to the cochlea of the inner ear. Inside the fluid‑filled cochlea, the basilar membrane vibrates at locations corresponding to sound frequencies; inner hair cells on this membrane transduce the mechanical motion into electrical impulses that travel via the auditory nerve to the brain. The inner ear also includes semicircular canals that serve the balance function.",
+    "gold_chunks": [
+      "Human Ear Outer ear: funnels sound into ear canal Middle ear: sound impinges on tympanic membrane; this causes motion • Middle ear is a mechanical transducer, consisting of the hammer, anvil and stirrup; it converts acoustical sound wave to mechanical vibrations along the inner ear Inner ear: the cochlea is a fluid-filled chamber partitioned by the basilar membrane • The auditory nerve is connected to the basilar membrane via inner hair cells • Mechanical vibrations at the entrance to the cochlea create standing waves (of fluid inside the cochlea) causing basilar membrane to vibrate at frequencies commensurate with the input acoustic wave frequencies (formants) and at a place along the basilar membrane that is associated with these frequencies",
+      "The Outer Ear",
+      "The Inner Ear The inner ear can be thought of as two organs, namely the semicircular canals which serve as the body’s balance organ and the cochlea which serves as the body’s microphone, converting sound pressure signals from the outer ear into electrical impulses which are passed on to the brain via the auditory nerve."
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "summary-003",
+    "type": "summary",
+    "question": "What sequence of structures carries sound from the outer ear to the brain?",
+    "reference": "Sound is captured by the outer ear, transformed into electrical impulses by the cochlea of the inner ear, and then conveyed to the brain by the auditory nerve, which also carries signals from the semicircular canals.",
+    "gold_chunks": [
+      "The Outer Ear",
+      "The Inner Ear The inner ear can be thought of as two organs, namely the semicircular canals which serve as the body’s balance organ and the cochlea which serves as the body’s microphone, converting sound pressure signals from the outer ear into electrical impulses which are passed on to the brain via the auditory nerve.",
+      "The Auditory Nerve Taking electrical impulses from the cochlea and the semicircular canals, the auditory nerve makes connections with both auditory areas of the brain."
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "summary-004",
+    "type": "summary",
+    "question": "How do pitch, loudness, and timbre together characterize a sound's perceptual dimensions?",
+    "reference": "Auditory perception, a psychophysics branch, studies perceptual dimensions such as pitch (frequency‑based, 20 Hz–20 kHz), loudness (amplitude‑based, measured in decibels with 0 dB as threshold), and timbre (spectrum‑envelope characteristics that differentiate instruments).",
+    "gold_chunks": [
+      "Auditory Perception Auditory perception is a branch of psychophysics. Psychophysics studies relationships between perception and physical properties of stimuli. Physical dimensions: Aspects of a physical stimulus that can be measured with an instrument (e.g., a light meter, a sound level meter, a spectrum analyzer, a fundamental frequency meter, etc.) Perceptual dimensions: These are the mental experiences that occur inside the mind of the observer. These experiences are actively created by the sensory system and brain based on an analysis of the physical properties of the stimulus. Perceptual dimensions can be measured, but not with a meter. Measuring perceptual dimensions requires an observer (e.g., a listener).",
+      "Spring 2006 IEOR 170 28 Perceptual Dimensions • Pitch – higher frequencies perceived as higher pitch – humans hear sounds in 20 Hz to 20,000 Hz range • Loudness – higher amplitude results in louder sounds – measured in decibels (db), 0 db represents hearing threshold",
+      "Spring 2006 IEOR 170 29 Perceptual Dimensions (cont.) • Timbre – complex patterns added to the lowest, or fundamental, frequency of a sound, referred to as spectrum envelope – spectrum envelopes enable us to distinguish musical instruments • Multiples of fundamental frequency give music • Multiples of unrelated frequencies give noise"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "summary-005",
+    "type": "summary",
+    "question": "How does parameter discrimination connect physical stimulus properties to perceptual dimensions such as pitch and loudness?",
+    "reference": "Parameter discrimination links measurable physical stimulus attributes to the mental experiences of listeners; auditory perception, a branch of psychophysics, studies this relationship, showing that physical dimensions like frequency and amplitude are perceived as pitch and loudness respectively.",
+    "gold_chunks": [
+      "Parameter Discrimination",
+      "Auditory Perception Auditory perception is a branch of psychophysics. Psychophysics studies relationships between perception and physical properties of stimuli. Physical dimensions: Aspects of a physical stimulus that can be measured with an instrument (e.g., a light meter, a sound level meter, a spectrum analyzer, a fundamental frequency meter, etc.) Perceptual dimensions: These are the mental experiences that occur inside the mind of the observer. These experiences are actively created by the sensory system and brain based on an analysis of the physical properties of the stimulus. Perceptual dimensions can be measured, but not with a meter. Measuring perceptual dimensions requires an observer (e.g., a listener).",
+      "Spring 2006 IEOR 170 28 Perceptual Dimensions • Pitch – higher frequencies perceived as higher pitch – humans hear sounds in 20 Hz to 20,000 Hz range • Loudness – higher amplitude results in louder sounds – measured in decibels (db), 0 db represents hearing threshold"
+    ],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "unanswerable-001",
+    "type": "unanswerable",
+    "question": "What are the long-term career impacts of mastering the four core competencies of AI Fluency?",
+    "reference": "NOT_ANSWERABLE",
+    "gold_chunks": [],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "unanswerable-002",
+    "type": "unanswerable",
+    "question": "Which English vowel has the highest average formant frequency for its second formant (F2)?",
+    "reference": "NOT_ANSWERABLE",
+    "gold_chunks": [],
+    "source_docs": [
+      "Lecture.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "unanswerable-003",
+    "type": "unanswerable",
+    "question": "What is the typical frequency range detectable by human cochlear hair cells?",
+    "reference": "NOT_ANSWERABLE",
+    "gold_chunks": [],
+    "source_docs": [
+      "Lectures.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "unanswerable-004",
+    "type": "unanswerable",
+    "question": "Which activation function is most biologically plausible for modeling neuronal firing patterns?",
+    "reference": "NOT_ANSWERABLE",
+    "gold_chunks": [],
+    "source_docs": [
+      "Lec 4, week 2,Activation Functions.pdf"
+    ],
+    "reviewed": true
+  },
+  {
+    "id": "unanswerable-005",
+    "type": "unanswerable",
+    "question": "Which organization originally published the transformer architecture in 2017?",
+    "reference": "NOT_ANSWERABLE",
+    "gold_chunks": [],
+    "source_docs": [
+      "AI_Fluency_vocabulary_cheat_sheet.pdf"
+    ],
+    "reviewed": true
+  }
+]

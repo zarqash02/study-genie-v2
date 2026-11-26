@@ -1,0 +1,410 @@
+{
+  "config": {
+    "tag": "baseline-v2",
+    "date": "2026-11-26T07:53:32.974766+00:00",
+    "ragas_version": "0.4.4",
+    "judge_model": "openai/gpt-oss-120b",
+    "generator_model_id": "qwen/qwen3.8-27b",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "overlap": 50,
+    "top_k": 4,
+    "namespace": "eval-baseline-v2",
+    "n_total": 40,
+    "n_scored": 20,
+    "n_score_attempted": 35,
+    "n_eligible_for_scoring": 35,
+    "n_excluded_from_scoring": 5,
+    "n_errors": 0,
+    "n_unanswerable": 5,
+    "reviewed": true,
+    "docs": [
+      {
+        "doc": "AI_Fluency_vocabulary_cheat_sheet.pdf",
+        "page_count": 2,
+        "chunk_count": 3
+      },
+      {
+        "doc": "Lec 4, week 2,Activation Functions.pdf",
+        "page_count": 6,
+        "chunk_count": 6
+      },
+      {
+        "doc": "Lecture.pdf",
+        "page_count": 22,
+        "chunk_count": 22
+      },
+      {
+        "doc": "Lectures.pdf",
+        "page_count": 22,
+        "chunk_count": 22
+      }
+    ]
+  },
+  "aggregates": {
+    "ragas": {
+      "faithfulness": {
+        "mean": 0.8444444444444444,
+        "ci95": [
+          0.6444444444444444,
+          1.0
+        ],
+        "n_valid": 15
+      },
+      "response_relevancy": {
+        "mean": 0.3662532455190764,
+        "ci95": [
+          0.22793700161602246,
+          0.5055313355500539
+        ],
+        "n_valid": 20
+      },
+      "context_precision": {
+        "mean": 0.8888888888161112,
+        "ci95": [
+          0.7111111110571529,
+          0.9999999999238888
+        ],
+        "n_valid": 15
+      },
+      "context_recall": {
+        "mean": 0.9230769230769231,
+        "ci95": [
+          0.7692307692307693,
+          1.0
+        ],
+        "n_valid": 13
+      }
+    },
+    "retrieval": {
+      "k": 4,
+      "single_hit_at_k": {
+        "mean": 0.95,
+        "ci95": [
+          0.85,
+          1.0
+        ],
+        "n_valid": 20
+      },
+      "single_mrr": {
+        "mean": 0.9166666666666666,
+        "ci95": [
+          0.8,
+          1.0
+        ],
+        "n_valid": 20
+      },
+      "multi_gold_coverage": {
+        "mean": 0.85,
+        "ci95": [
+          0.7,
+          1.0
+        ],
+        "n_valid": 10
+      }
+    },
+    "abstention": {
+      "unanswerable_abstained": 5,
+      "unanswerable_total": 5,
+      "rate": 1.0,
+      "answerable_false_abstentions": 10,
+      "answerable_total": 35,
+      "false_abstention_rate": 0.2857142857142857
+    },
+    "latency": {
+      "retrieval_ms": {
+        "p50": 348.50350000488106,
+        "p95": 500.07143498805806,
+        "n": 40
+      },
+      "generation_ms": {
+        "p50": 817.5304499891354,
+        "p95": 4763.874195000968,
+        "n": 40
+      },
+      "total_ms": {
+        "p50": 1186.1798000027193,
+        "p95": 5061.948025012676,
+        "n": 40
+      }
+    },
+    "nan_metrics": {
+      "faithfulness": {
+        "count": 20,
+        "ids": [
+          "single-016",
+          "single-017",
+          "single-018",
+          "single-019",
+          "single-020",
+          "multi-001",
+          "multi-002",
+          "multi-003",
+          "multi-004",
+          "multi-005",
+          "multi-006",
+          "multi-007",
+          "multi-008",
+          "multi-009",
+          "multi-010",
+          "summary-001",
+          "summary-002",
+          "summary-003",
+          "summary-004",
+          "summary-005"
+        ]
+      },
+      "response_relevancy": {
+        "count": 15,
+        "ids": [
+          "single-017",
+          "single-018",
+          "single-019",
+          "single-020",
+          "multi-001",
+          "multi-003",
+          "multi-004",
+          "multi-005",
+          "multi-007",
+          "multi-008",
+          "multi-009",
+          "multi-010",
+          "summary-002",
+          "summary-003",
+          "summary-004"
+        ]
+      },
+      "context_precision": {
+        "count": 20,
+        "ids": [
+          "single-016",
+          "single-017",
+          "single-018",
+          "single-019",
+          "single-020",
+          "multi-001",
+          "multi-002",
+          "multi-003",
+          "multi-004",
+          "multi-005",
+          "multi-006",
+          "multi-007",
+          "multi-008",
+          "multi-009",
+          "multi-010",
+          "summary-001",
+          "summary-002",
+          "summary-003",
+          "summary-004",
+          "summary-005"
+        ]
+      },
+      "context_recall": {
+        "count": 22,
+        "ids": [
+          "single-004",
+          "single-014",
+          "single-016",
+          "single-017",
+          "single-018",
+          "single-019",
+          "single-020",
+          "multi-001",
+          "multi-002",
+          "multi-003",
+          "multi-004",
+          "multi-005",
+          "multi-006",
+          "multi-007",
+          "multi-008",
+          "multi-009",
+          "multi-010",
+          "summary-001",
+          "summary-002",
+          "summary-003",
+          "summary-004",
+          "summary-005"
+        ]
+      }
+    },
+    "by_type": {
+      "multi": {
+        "ragas": {
+          "faithfulness": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "response_relevancy": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_valid": 2
+          },
+          "context_precision": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "context_recall": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          }
+        },
+        "retrieval": {
+          "gold_coverage": {
+            "mean": 0.85,
+            "ci95": [
+              0.7,
+              0.95
+            ],
+            "n_valid": 10
+          }
+        }
+      },
+      "single": {
+        "ragas": {
+          "faithfulness": {
+            "mean": 0.8444444444444444,
+            "ci95": [
+              0.6444444444444444,
+              1.0
+            ],
+            "n_valid": 15
+          },
+          "response_relevancy": {
+            "mean": 0.4578165568988455,
+            "ci95": [
+              0.3064060247226963,
+              0.6089270039528784
+            ],
+            "n_valid": 16
+          },
+          "context_precision": {
+            "mean": 0.8888888888161112,
+            "ci95": [
+              0.7333333332716528,
+              0.9999999999222222
+            ],
+            "n_valid": 15
+          },
+          "context_recall": {
+            "mean": 0.9230769230769231,
+            "ci95": [
+              0.7692307692307693,
+              1.0
+            ],
+            "n_valid": 13
+          }
+        },
+        "retrieval": {
+          "hit_at_k": {
+            "mean": 0.95,
+            "ci95": [
+              0.85,
+              1.0
+            ],
+            "n_valid": 20
+          },
+          "mrr": {
+            "mean": 0.9166666666666666,
+            "ci95": [
+              0.7995833333333334,
+              1.0
+            ],
+            "n_valid": 20
+          }
+        }
+      },
+      "summary": {
+        "ragas": {
+          "faithfulness": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "response_relevancy": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_valid": 2
+          },
+          "context_precision": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "context_recall": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          }
+        },
+        "retrieval": {}
+      },
+      "unanswerable": {
+        "ragas": {
+          "faithfulness": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "response_relevancy": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "context_precision": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          },
+          "context_recall": {
+            "mean": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "n_valid": 0
+          }
+        },
+        "retrieval": {}
+      }
+    }
+  },
+  "warnings": [
+    "Judge model appears in the configured generator fallback chain; evaluation may be self-biased."
+  ]
+}
